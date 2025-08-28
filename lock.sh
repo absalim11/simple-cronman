@@ -21,10 +21,10 @@ echo "Removing sudoers rule for user '$WEB_SERVER_USER'..."
 
 if [ -f "$SUDO_RULE_FILE" ]; then
     sudo rm "$SUDO_RULE_FILE"
-    echo "File aturan sudoers '$SUDO_RULE_FILE' berhasil dihapus."
+    echo "The sudoers rule file '$SUDO_RULE_FILE' has been successfully removed."
 else
-    echo "File aturan sudoers '$SUDO_RULE_FILE' tidak ditemukan. Tidak ada yang perlu dihapus."
+    echo "The sudoers rule file '$SUDO_RULE_FILE' was not found. Nothing to remove."
 fi
 
-echo "Aplikasi web tidak akan lagi dapat mengelola cron job."
-echo "Anda dapat memverifikasi dengan mencoba menambahkan cron job dari UI; seharusnya sekarang gagal dengan error izin."
+echo "The web application will no longer be able to manage cron jobs."
+echo "You can verify this by trying to add a cron job from the UI; it should now fail with a permission error."

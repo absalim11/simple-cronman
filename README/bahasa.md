@@ -1,5 +1,7 @@
 ## SIMPLE CRON MANAJER
-## abysalim007@gmail.com
+
+## Kebutuhan
+- PHP 7+
 
 ## Workflow
 1. **Engine ON**

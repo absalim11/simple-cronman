@@ -1,5 +1,8 @@
 # SIMPLE CRON MANAGER
 
+## Requirements
+- PHP 7+
+
 ## Workflow
 
 1. **Engine ON**
